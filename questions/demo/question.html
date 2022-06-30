@@ -1,0 +1,55 @@
+<pl-question-panel>
+    <p>A 5V voltage source is connected to the breadboard below (note that the positive and negative terminals are labeled on the connector.)</p>
+    <p>Suppose you want to use the voltage source to light an LED. Add components and wires to the breadboard to realize this circuit.</p>
+</pl-question-panel>
+
+
+
+
+<pl-hide-in-panel answer="true" submission="true">
+<pl-overlay width=800 height=750>
+    <pl-background>
+        
+        <pl-hide-in-answer-panel>
+            <pl-drawing grid-size="0" width="600" height="700" gradable="true" answers-name="bb" hide-answer-panel="true" show-tolerance-hint="false">
+                <pl-drawing-answer></pl-drawing-answer>
+                <pl-controls>
+                    <pl-controls-group label="Wires">
+                        <pl-drawing-button type="pl-line" stroke-width="5" stroke-color="purple2"></pl-drawing-button>
+                    </pl-controls-group>
+                    <pl-controls-group label="Basic Components">
+                        <!-- <pl-drawing-button type="pl-resistor" x="100" y="100" ohm="220"></pl-drawing-button> -->
+                        <pl-drawing-button type="pl-resistor" x="100" y="100" ohm="470"></pl-drawing-button>
+                        <pl-drawing-button type="pl-led" x="100" y="100" ledcolor="yellow"></pl-drawing-button>
+                        <!-- <pl-drawing-button type="pl-push-button" x="100" y="100" npins="4"></pl-drawing-button> -->
+                    </pl-controls-group>
+                    <!--
+                    <pl-controls-group label="DIP ICs">
+                        <pl-drawing-button type="pl-dip-ic" x="100" y="100" npins="4"></pl-drawing-button>
+                        <pl-drawing-button type="pl-dip-ic" x="100" y="100" npins="10"></pl-drawing-button>
+                    </pl-controls-group>
+                    <pl-controls-group label="Multimeter probes">
+                        <pl-drawing-button type="pl-probe-minus" x="150" y="200"></pl-drawing-button>
+                        <pl-drawing-button type="pl-probe-plus" x="300" y="200"></pl-drawing-button>
+                    </pl-controls-group>
+                    -->
+                    <pl-controls-group label="Delete">
+                         <pl-drawing-button type="delete"></pl-drawing-button>
+                    </pl-controls-group>
+                </pl-controls>
+            </pl-drawing>
+        </pl-hide-in-answer-panel>
+    </pl-background>
+
+    <pl-location left="300" top="300">
+        <img src="{{options.client_files_course_url}}/breadboard-power.svg" width="400px">
+    </pl-location>
+    <pl-location left="260" top="750">
+        <p><small><i>This question uses <a href="https://github.com/fritzing/fritzing-parts">Fritzing graphics</a>, which are shared under a CC BY-SA 3.0 Unported license.</i></small></p>
+    </pl-location>
+</pl-overlay>
+
+
+<hr>
+
+</pl-hide-in-panel>
